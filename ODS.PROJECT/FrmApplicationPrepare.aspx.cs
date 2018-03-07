@@ -91,7 +91,8 @@ namespace ODS.PROJECT
             string HH;
             string BB;
 
-            
+            string FF;
+
             string currentFile = Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/tmpFrmApplication.html";
             //string currentFile = Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/testHtml.html";
             var url = Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/FrmApplicationPrepare.aspx?doc_id=" + doc_id.Value + "&signature=" + signature_file.Value + "&page_count=" + page_count.Value + "&paper_type=" + paper_type.Value;
