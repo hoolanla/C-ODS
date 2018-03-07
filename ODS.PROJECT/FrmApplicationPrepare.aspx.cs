@@ -90,6 +90,8 @@ namespace ODS.PROJECT
 
             string HH;
             string BB;
+            int w;
+
 
             
             string currentFile = Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/tmpFrmApplication.html";
