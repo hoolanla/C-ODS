@@ -87,7 +87,7 @@ namespace ODS.PROJECT
         void testPostback()
         {
 
-            string git_;
+            
             
             string currentFile = Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/tmpFrmApplication.html";
             //string currentFile = Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/testHtml.html";
