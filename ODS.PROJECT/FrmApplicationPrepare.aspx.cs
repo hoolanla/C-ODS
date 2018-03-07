@@ -87,7 +87,7 @@ namespace ODS.PROJECT
         void testPostback()
         {
 
-        
+            string git_;
             
             string currentFile = Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/tmpFrmApplication.html";
             //string currentFile = Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/testHtml.html";
@@ -98,6 +98,9 @@ namespace ODS.PROJECT
             var stream = response.GetResponseStream();
             var sr = new StreamReader(stream);
             string content = sr.ReadToEnd();
+
+
+
 
             Int32 pos_start, pos_stop;
             string MidString;
